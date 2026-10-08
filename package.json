@@ -1,0 +1,43 @@
+{
+  "name": "code-impact-analyzer",
+  "version": "1.0.1",
+  "description": "Deterministic local full-stack impact analyzer for JavaScript and TypeScript applications.",
+  "type": "module",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin/",
+    "src/",
+    "README.md"
+  ],
+  "bin": {
+    "code-impact": "bin/code-impact.js"
+  },
+  "scripts": {
+    "test": "node --test test/analyzer.test.js test/robustness.test.js",
+    "start": "node bin/code-impact.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anshuman-sharma2006/NPM.git"
+  },
+  "keywords": [
+    "impact-analysis",
+    "static-analysis",
+    "runtime-tracing",
+    "typescript",
+    "javascript",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anshuman-sharma2006/NPM/issues"
+  },
+  "homepage": "https://github.com/Anshuman-sharma2006/NPM#readme",
+  "dependencies": {
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,4 @@
+node_modules/
+.code-impact/
+coverage/
+.DS_Store
